@@ -1,6 +1,86 @@
 const Sdata = {
   shopItems: [
     {
+      "id": "1",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Paseo de perros",
+      "descripcion": "Ofrezco paseo de perros para aquellos que necesiten ayuda para mantener a sus mascotas activas y felices.",
+      "price": 10
+    },
+    {
+      "id": "2",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Ayuda a personas mayores",
+      "descripcion": "Estoy disponible para hacer la compra y ayudar a personas mayores con sus tareas diarias.",
+      "price": 15
+    },
+    {
+      "id": "3",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Clases de inglés",
+      "descripcion": "Imparto clases de inglés para principiantes y estudiantes intermedios. Clases personalizadas.",
+      "price": 20
+    },
+    {
+      "id": "4",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Servicio de jardinería",
+      "descripcion": "Ofrezco servicios de jardinería para mantener su jardín hermoso y bien cuidado.",
+      "price": 25
+    },
+    {
+      "id": "5",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Limpieza del hogar",
+      "descripcion": "Realizo limpieza del hogar con atención a los detalles para mantener su casa impecable.",
+      "price": 18
+    },
+    {
+      "id": "6",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Clases de yoga",
+      "descripcion": "Clases de yoga para todos los niveles, enfocadas en mejorar la flexibilidad y la relajación.",
+      "precio": 12
+    },
+    {
+      "id": "7",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Reparación de computadoras",
+      "descripcion": "Resuelvo problemas de software y hardware en computadoras. ¡Tu PC volverá a funcionar como nueva!",
+      "precio": 30
+    },
+    {
+      "id": "8",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Servicio de costura",
+      "descripcion": "Realizo arreglos de ropa y confección de prendas a medida. ¡Tus prendas lucirán perfectas!",
+      "precio": 22
+    },
+    {
+      "id": "9",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Cuidado de niños",
+      "descripcion": "Cuido niños de todas las edades con experiencia y dedicación. ¡Los pequeños estarán en buenas manos!",
+      "precio": 14
+    },
+    {
+      "id": "10",
+      "category": "Ropa",
+      "cover": "./images/shops/shops-1.png",
+      "name": "Asesoría financiera",
+      "descripcion": "Ofrezco asesoría financiera personalizada para ayudarte a alcanzar tus metas económicas.",
+      "precio": 28
+    }
+    /*{
       id: 7,
       cover: "./images/shops/shops-1.png",
       name: "Mapple Earphones",
@@ -62,7 +142,7 @@ const Sdata = {
       name: "Silver Cap",
       price: "5",
       discount: "2",
-    },
+    },*/
   ],
 }
 export default Sdata

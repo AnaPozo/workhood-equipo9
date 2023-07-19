@@ -3,49 +3,47 @@ import React from "react"
 const Categories = () => {
   const data = [
     {
-      cateImg: "./images/category/cat1.png",
-      cateName: "Fashion",
+      cateImg: "./images/category/cat13.png",
+      cateName: "Health & Care",
     },
     {
-      cateImg: "./images/category/cat2.png",
-      cateName: "Electronic",
-    },
-    {
-      cateImg: "./images/category/cat3.png",
-      cateName: "Cars",
-    },
-    {
-      cateImg: "./images/category/cat4.png",
-      cateName: "Home & Garden",
-    },
-    {
-      cateImg: "./images/category/cat5.png",
-      cateName: "Gifts",
-    },
-    {
-      cateImg: "./images/category/cat6.png",
-      cateName: "Music",
-    },
-    {
-      cateImg: "./images/category/cat7.png",
-      cateName: "Health & Beauty",
+      cateImg: "./images/category/cat12.png",
+      cateName: "Mantenimiento",
     },
     {
       cateImg: "./images/category/cat8.png",
-      cateName: "Pets",
-    },
-    {
-      cateImg: "./images/category/cat9.png",
-      cateName: "Baby Toys",
+      cateName: "Animales",
     },
     {
       cateImg: "./images/category/cat10.png",
-      cateName: "Groceries",
+      cateName: "Alimentación",
+    },
+    {
+      cateImg: "./images/category/cat1.png",
+      cateName: "Ropa",
+    },
+    {
+      cateImg: "./images/category/cat4.png",
+      cateName: "Juguetes",
     },
     {
       cateImg: "./images/category/cat11.png",
-      cateName: "Books",
+      cateName: "Libros",
     },
+    {
+      cateImg: "./images/category/cat2.png",
+      cateName: "Electrónica",
+    },
+    {
+      cateImg: "./images/category/cat3.png",
+      cateName: "Viajes",
+    },
+    {
+      cateImg: "./images/category/cat5.png",
+      cateName: "Clases particulares",
+    },
+
+
   ]
 
   return (
