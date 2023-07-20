@@ -57,8 +57,8 @@ function App() {
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route>
-          <Route path='/anuncios' exact> {/* Ruta para mostrar los anuncios */}
-            <AnunciosView /> {/* Renderiza el componente AnunciosView */}
+          <Route path='/anuncios' exact> 
+            <AnunciosView /> 
           </Route>
         </Switch>
         <Footer />
