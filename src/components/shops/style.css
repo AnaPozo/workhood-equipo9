@@ -21,6 +21,8 @@
 .shop .category img {
   width: auto;
   height: auto;
+
+
 }
 .shop .category .box:hover {
   background-color: #fff;
@@ -57,3 +59,26 @@
 .shop .product:hover {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
+#title-cart{
+  font-weight: 700;
+  font-size:22px;
+}
+p{
+  font-weight: light;
+  color: grey
+}
+#img-shop-card{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  align-self: center;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  
+}
+#title-cart{
+  font-weight: 600;
+}
+

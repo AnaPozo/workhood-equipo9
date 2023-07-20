@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../../components/assets/images/logowhite.png"
 import "./style.css"
 
 const Footer = () => {
@@ -6,22 +7,12 @@ const Footer = () => {
     <>
       <footer>
         <div className='container grid2'>
-          <div className='box'>
-            <h1>WORK HOOD</h1>
-            <p>Work Hood, seamos el robin hood de nuestra comunidad, ayudemos a los que lo necesitan.</p>
-            <div className='icon d_flex'>
-              <div className='img d_flex'>
-                <i class='fa-brands fa-google-play'></i>
-                <span>Google Play</span>
-              </div>
-              <div className='img d_flex'>
-                <i class='fa-brands fa-app-store-ios'></i>
-                <span>App Store</span>
-              </div>
-            </div>
+          <div className='boxone'>
+          <img id="logowhite" src={logo} alt='' /> 
+            <p id="textfooter">Work Hood, seamos el robin hood de nuestra comunidad, ayudemos a los que lo necesitan.</p>
           </div>
 
-          <div className='box'>
+          <div className='boxtwo'>
             <h2>Sobre Nosotros</h2>
             <ul>
               <li>Trabaja con nosotros</li>
@@ -30,7 +21,7 @@ const Footer = () => {
               <li>Política de Privacidad</li>
             </ul>
           </div>
-          <div className='box'>
+          <div className='boxtwo'>
             <h2>Cliente</h2>
             <ul>
               <li>Centro de Ayuda </li>
@@ -39,10 +30,10 @@ const Footer = () => {
               <li>Devoluciones & Reembolso</li>
             </ul>
           </div>
-          <div className='box'>
+          <div className='boxtwo'>
             <h2>Contáctanos</h2>
             <ul>
-              <li>C/ de los junior fullstack, Barcelona, 012345, España </li>
+              <li>C/ de los Junior Fullstack, Barcelona, 012345, España </li>
               <li>Email: workhood.help@gmail.com</li>
               <li>Teléfono: +34 123 456 789</li>
             </ul>

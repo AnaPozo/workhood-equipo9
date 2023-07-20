@@ -27,3 +27,21 @@
   left: 0;
   margin: auto;
 }
+.category{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+#img-categories{
+  height: 80%;
+  filter:brightness(0);
+}
+#img-slider{
+  height: 80%;
+}
+.right{
+  padding:20px 20px;
+}
+#img-category{
+  filter:brightness(0);
+}
