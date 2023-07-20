@@ -12,7 +12,7 @@
 </ol>
 ________________________________________________________________________________________________________________________________
 
-<h2>General</h2>
+<h2>1.-General</h2>
 
 <p>Work Hood es una app que tiene como objetivo mejorar la calidad de vida de la sociedad en su conjunto. Consiste en crear un sistema  de colaboración mutua, de intercambio de habilidades, conocimientos y ganas para crear una comunidad mejor.
 Se trata de un sistema de ayuda mutua entre personas que viven en la misma comunidad, es la ayuda informal de toda la vida pero en este caso la formalizamos llevando un control de las ofertas y demandas de cada persona. 
@@ -20,7 +20,7 @@ Todos tenemos habilidades, capacidades y conocimientos que ofrecer y de los cual
 </p>
 
 
-<h2> ## 💻 Tecnologías y 🛠Herramientas </h2>
+<h2> 2.- ## 💻 Tecnologías y 🛠Herramientas </h2>
 
 <img width="239" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/594fb9de-3b1c-4351-8354-916e23bb3066">
 
@@ -30,20 +30,26 @@ Todos tenemos habilidades, capacidades y conocimientos que ofrecer y de los cual
 </li> </ul>
 _______________________________________________________________________________________________________________________________
 
-<h2>Instalación </h2>
+<h2> 3.-Instalación </h2>
 
 **Clona el repositorio:**
 https://github.com/AnaPozo/workhood-equipo9.git
-npm install
-npm install react-google-recaptcha
-npm start
+
 
 <p>
 <ul>
  
-<li>Accede a una terminal y dirígete al directorio donde se encuentra tu proyecto </li>
-<img width="92" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/4a815d79-0e25-43b0-a2a6-13373143856b">
+<li>Accede a una terminal y dirígete al directorio donde se encuentra tu proyecto y procede a instalar las dependencias del proyecto con el siguiente comando</li>
+<li>**npm install**</li>
 
+<li> instala el paquete react-google-recaptcha</li>
+<li>**npm install react-google-recaptcha**</li>
+
+<li>para ver cómo se ve y funciona en tu computadora ejecuta</li>
+<li>**npm start**</li>**
+
+</p>
+ <li>Una vez finalizada la instalación, inicia la aplicación ejecutando el siguiente comando:</li>
  
 </p>
 
