@@ -59,6 +59,10 @@
 .shop .product:hover {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
+#title-cart{
+  font-weight: 700;
+  font-size:22px;
+}
 p{
   font-weight: light;
   color: grey
@@ -68,9 +72,11 @@ p{
   margin-bottom: 20px;
   width: 30%;
   align-self: center;
+  filter:brightness(0);
 }
 .img {
   display: flex;
   flex-direction: column;
+  
 }
 

@@ -9,10 +9,11 @@ const Pages = ({ addToCart, CartItem, shopItems }) => {
     <>
       <Home CartItem={CartItem} />
       
-      <TopCate />
+      
       
      
       <Shop shopItems={shopItems} addToCart={addToCart} />
+      <TopCate />
       
       <Wrapper />
     </>

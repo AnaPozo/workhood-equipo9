@@ -4,6 +4,11 @@ import { Link } from "react-router-dom"
 const Categories = () => {
   const data = [
     {
+      cateId: "all",
+      cateImg: "./images/category/cat1.svg",
+      cateName: "Todas las categorías",
+    },
+    {
       cateId: "health",
       cateImg: "./images/category/cat13.png",
       cateName: "Health & Care",
@@ -48,7 +53,7 @@ const Categories = () => {
       cateName: "Viajes",
     },
     {
-      cateImg: "./images/category/cat5.png",
+      cateImg: "./images/category/cat7.png",
       cateName: "Clases particulares",
     },
     {
@@ -67,7 +72,7 @@ const Categories = () => {
           return (
           
             <div className='box f_flex' key={index}>
-              <img src={value.cateImg} alt='' />
+              <img id="img-category"src={value.cateImg} alt='' />
              <span>{value.cateName}</span>
             </div>
 

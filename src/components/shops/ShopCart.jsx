@@ -23,7 +23,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
                 </div>
               </div>
               <div className='product-details'>
-                <h3>{shopItems.name}</h3>
+                <h3 id="title-cart">{shopItems.name}</h3>
                 <p>{shopItems.descripcion}</p>
                 <div className='rate'>
                   <i className='fa fa-star'></i>
