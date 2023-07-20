@@ -9,6 +9,7 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import ShowData from "./components/item/item"
 import Form from "./components/Form/Form"
+import FormAdd from "./components/FormAdd/FormAdd"
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
         <Switch>
           <Route path='/' exact>
             <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} /> 
+          </Route>
+          <Route path='/agregar' exact>
+            <FormAdd />
           </Route>
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
