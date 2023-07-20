@@ -13,7 +13,7 @@ const Head = () => {
           </div>
           <div className='right row RText'>
             <label>Work Hood FAQs</label>
-            <label>Necesitas Ayuda?</label>
+            <label>¿Necesitas Ayuda?</label>
             
           </div>
         </div>

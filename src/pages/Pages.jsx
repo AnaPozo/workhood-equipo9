@@ -11,7 +11,6 @@ const Pages = ({ addToCart, CartItem, shopItems }) => {
       
       
       
-     
       <Shop shopItems={shopItems} addToCart={addToCart} />
       <TopCate />
       

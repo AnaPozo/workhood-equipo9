@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../components/assets/images/logo.png"
+import logo from "../../components/assets/images/logowhite.png"
 import "./style.css"
 
 const Footer = () => {
@@ -7,12 +7,12 @@ const Footer = () => {
     <>
       <footer>
         <div className='container grid2'>
-          <div className='box'>
-          <img id="logoheader" src={logo} alt='' /> 
-            <p>Work Hood, seamos el robin hood de nuestra comunidad, ayudemos a los que lo necesitan.</p>
+          <div className='boxone'>
+          <img id="logowhite" src={logo} alt='' /> 
+            <p id="textfooter">Work Hood, seamos el robin hood de nuestra comunidad, ayudemos a los que lo necesitan.</p>
           </div>
 
-          <div className='box'>
+          <div className='boxtwo'>
             <h2>Sobre Nosotros</h2>
             <ul>
               <li>Trabaja con nosotros</li>
@@ -21,7 +21,7 @@ const Footer = () => {
               <li>Política de Privacidad</li>
             </ul>
           </div>
-          <div className='box'>
+          <div className='boxtwo'>
             <h2>Cliente</h2>
             <ul>
               <li>Centro de Ayuda </li>
@@ -30,7 +30,7 @@ const Footer = () => {
               <li>Devoluciones & Reembolso</li>
             </ul>
           </div>
-          <div className='box'>
+          <div className='boxtwo'>
             <h2>Contáctanos</h2>
             <ul>
               <li>C/ de los Junior Fullstack, Barcelona, 012345, España </li>

@@ -7,6 +7,8 @@ import Data from "./components/Data"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
+import ShowData from "./components/item/item"
+import Form from "./components/Form/Form"
 
 
 function App() {
@@ -43,6 +45,12 @@ function App() {
           </Route>
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
+          </Route>
+          <Route path='/item' exact>
+            <ShowData /> 
+          </Route>
+          <Route path='/contact' exact>
+            <Form />
           </Route>
         </Switch>
         <Footer />
