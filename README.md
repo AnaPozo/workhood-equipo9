@@ -1,6 +1,4 @@
-<div style="text-align: center;">
-<img width="212" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/af26ff4b-b42f-464d-ba33-512ce68ffb83">
-</div>
+
 
 <h1 align="center"> Work Hood- Equipo9 - Proyecto Hackaton F5 Julio 2023 </h1>
 
