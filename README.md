@@ -30,7 +30,9 @@ ________________________________________________________________________________
 
 **Clona el repositorio:**
 https://github.com/AnaPozo/workhood-equipo9.git
-
+npm install
+npm install react-google-recaptcha
+npm start
 
 
 
@@ -41,6 +43,10 @@ https://github.com/AnaPozo/workhood-equipo9.git
 
 <h3>Logo</h3>
 <img width="448" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/49093680-e44c-47af-9b68-268d6c829d83">
+
+<h3>Prototipo</h3>
+<img width="414" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/657faab5-d64d-4145-84b5-81b0d5aac872">
+
 
 
 
