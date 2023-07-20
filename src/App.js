@@ -8,17 +8,12 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import axios from "axios"; 
 
-
-
-
 function App() {
 
   const { shopItems } = Sdata
 
-  //Step 2 :
   const [CartItem, setCartItem] = useState([])
 
-  //Step 4 :
   const addToCart = (product) => {
    
     const productExit = CartItem.find((item) => item.id === product.id)
@@ -82,7 +77,7 @@ const createAnuncio = (newAnuncio) => {
         <Header CartItem={CartItem} />
         <Switch>
           <Route path='/' exact>
-            <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+            <Pages productItems={productItems} addToCart={addToCart} shopItems={shopItems} /> 
           </Route>
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />

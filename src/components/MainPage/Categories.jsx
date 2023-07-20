@@ -1,51 +1,63 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Categories = () => {
   const data = [
     {
+      cateId: "health",
+      cateImg: "./images/category/cat13.png",
+      cateName: "Health & Care",
+    },
+    {
+      cateId: "mantenimiento",
+      cateImg: "./images/category/cat12.png",
+      cateName: "Mantenimiento",
+    },
+    {
+      cateId: "animales",
+      cateImg: "./images/category/cat8.png",
+      cateName: "Animales",
+    },
+    {
+      cateId: "alimentacion",
+      cateImg: "./images/category/cat10.png",
+      cateName: "Alimentación",
+    },
+    {
+      cateId: "ropa",
       cateImg: "./images/category/cat1.png",
-      cateName: "Fashion",
+      cateName: "Ropa",
     },
     {
-      cateImg: "./images/category/cat2.png",
-      cateName: "Electronic",
-    },
-    {
-      cateImg: "./images/category/cat3.png",
-      cateName: "Cars",
-    },
-    {
+      cateId: "juguetes",
       cateImg: "./images/category/cat4.png",
-      cateName: "Home & Garden",
+      cateName: "Juguetes",
+    },
+    {
+      cateId: "libros",
+      cateImg: "./images/category/cat11.png",
+      cateName: "Libros",
+    },
+    {
+      cateId: "electronica",
+      cateImg: "./images/category/cat2.png",
+      cateName: "Electrónica",
+    },
+    {cateId: "viajes",
+      cateImg: "./images/category/cat3.png",
+      cateName: "Viajes",
     },
     {
       cateImg: "./images/category/cat5.png",
-      cateName: "Gifts",
+      cateName: "Clases particulares",
     },
     {
-      cateImg: "./images/category/cat6.png",
-      cateName: "Music",
+      cateId: "otros",
+      cateImg: "./images/category/cat5.png",
+      cateName: "Otros",
     },
-    {
-      cateImg: "./images/category/cat7.png",
-      cateName: "Health & Beauty",
-    },
-    {
-      cateImg: "./images/category/cat8.png",
-      cateName: "Pets",
-    },
-    {
-      cateImg: "./images/category/cat9.png",
-      cateName: "Baby Toys",
-    },
-    {
-      cateImg: "./images/category/cat10.png",
-      cateName: "Groceries",
-    },
-    {
-      cateImg: "./images/category/cat11.png",
-      cateName: "Books",
-    },
+
+
   ]
 
   return (
@@ -53,10 +65,12 @@ const Categories = () => {
       <div className='category'>
         {data.map((value, index) => {
           return (
+          
             <div className='box f_flex' key={index}>
               <img src={value.cateImg} alt='' />
-              <span>{value.cateName}</span>
+             <span>{value.cateName}</span>
             </div>
+
           )
         })}
       </div>

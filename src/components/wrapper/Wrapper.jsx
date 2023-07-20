@@ -4,24 +4,24 @@ import "./style.css"
 const Wrapper = () => {
   const data = [
     {
-      cover: <i class='fa-solid fa-truck-fast'></i>,
-      title: "Worldwide Delivery",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      cover: <i class="fa-solid fa-city"></i>,
+      title: "En tu zona",
+      decs: "Alguien en tu zona ofrece el servicio que necesitas, sin necesidad de desplazarse muy lejos, ni para ti ni para quien lo ofrece.",
     },
     {
-      cover: <i class='fa-solid fa-id-card'></i>,
-      title: "Safe Payment",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      cover: <i class="fa-solid fa-credit-card"></i>,
+      title: "Variedad de precios",
+      decs: "Cada trabajador publica sus propios precios, segun las necesidades cubiertas.",
     },
     {
-      cover: <i class='fa-solid fa-shield'></i>,
-      title: "Shop With Confidence ",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      cover: <i class="fa-solid fa-handshake"></i>,
+      title: "De confianza",
+      decs: "Los propios usuarios pueden corroborar que los servicios son de fiar y de calidad.",
     },
     {
-      cover: <i class='fa-solid fa-headset'></i>,
-      title: "24/7 Support ",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      cover:<i class="fa-solid fa-clock"></i>,
+      title: "posibilidad de servicio a cualquier hora del dia",
+      decs: "Un trabajador podria estar disponible a la hora que te haga falta.",
     },
   ]
   return (
