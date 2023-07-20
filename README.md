@@ -39,6 +39,10 @@ https://github.com/AnaPozo/workhood-equipo9.git
 <h3>Paleta de colores</h3>
 <img width="366" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/8bf25067-25bb-4719-bad2-4a757f98bb41">
 
+<h3>Logo</h3>
+<img width="448" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/49093680-e44c-47af-9b68-268d6c829d83">
+
+
 
 
 
