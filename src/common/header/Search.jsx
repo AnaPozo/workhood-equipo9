@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../../components/assets/images/logo.svg";
+import logo from "../../components/assets/images/logo.png";
 import { Link } from "react-router-dom";
 import Sdata from "../../components/shops/Sdata";
 
@@ -36,10 +36,10 @@ const Search = ({ CartItem }) => {
 
   return (
     <>
-      <section className="search">
-        <div className="container c_flex">
-          <div className="logo width">
-            <img src={logo} alt="" />
+      <section className='search'>
+        <div className='container c_flex'>
+          <div className='logo width '>
+            <img id="logoheader" src={logo} alt='' /> 
           </div>
 
           <div className="search-box f_flex">
@@ -83,4 +83,5 @@ const Search = ({ CartItem }) => {
 };
 
 
-export default Search;
+export default Search
+

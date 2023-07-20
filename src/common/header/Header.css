@@ -11,6 +11,13 @@
   margin-right: 30px;
   font-size: 13px;
 }
+/*------head-----------*/
+/*------search-----------*/
+
+#logoheader {
+  width: 100%;
+}
+
 .search {
   padding: 20px 0;
 }
