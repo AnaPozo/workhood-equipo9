@@ -69,7 +69,6 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
 
-/*---------category----------*/
 .contentWidth {
   width: 77%;
 }
@@ -101,7 +100,6 @@ button {
   cursor: pointer;
 }
 
-/*---------category----------*/
 .btn-primary {
   background: #e94560;
   padding: 13px 40px;
@@ -130,7 +128,6 @@ button {
   color: #fff;
   margin: 10px;
 }
-/*---------product-----------*/
 .product {
   background: #fff;
   padding: 20px;
@@ -190,8 +187,6 @@ button {
 .product:hover .product-like {
   opacity: 1;
 }
-/*---------product-----------*/
-/*----- control btn -------*/
 .control-btn .next,
 .control-btn .prev {
   position: absolute;
@@ -222,8 +217,6 @@ button {
   color: white;
   cursor: pointer;
 }
-/*----- control btn -------*/
-/*----- heading -------*/
 .heading .heading-left i {
   font-size: 30px;
 }
@@ -236,7 +229,6 @@ button {
   text-align: right;
   color: grey;
 }
-/*----- heading -------*/
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

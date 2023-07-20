@@ -1,28 +1,28 @@
 const Tdata = [
   {
     cover: "./images/top/category-1.png",
-    para: "headphone",
-    desc: "3k orders this week",
+    para: "jardineria",
+    desc: "+3000 servicios esta semana",
   },
   {
     cover: "./images/top/category-2.png",
-    para: "watch",
-    desc: "4k orders this week",
+    para: "limpieza",
+    desc: "+4000 servicios esta semana",
   },
   {
     cover: "./images/top/category-3.png",
-    para: "sunglass",
-    desc: "6k orders this week",
+    para: "reparacion de coches",
+    desc: "+700 servicios esta semana",
   },
   {
-    cover: "./images/top/category-2.png",
-    para: "watch",
-    desc: "4k orders this week",
+    cover: "./images/top/category-4.png",
+    para: "niñeros",
+    desc: "+900 servicios esta semana",
   },
   {
-    cover: "./images/top/category-3.png",
-    para: "sunglass",
-    desc: "6k orders this week",
+    cover: "./images/top/category-5.png",
+    para: "clases particulares",
+    desc: "+1500 servicios esta semana",
   },
 ]
 

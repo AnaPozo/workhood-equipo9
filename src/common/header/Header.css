@@ -1,4 +1,4 @@
-/*------head-----------*/
+
 .head {
   background-color: #0f3460;
   padding: 10px 0;
@@ -31,7 +31,6 @@
 .search-box {
   width: 80%;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  /*padding: 10px;*/
   border-radius: 50px;
 }
 .search-box i {
@@ -73,7 +72,6 @@
 .search .f_flex {
   justify-content: end;
 }
-/*------search-----------*/
 .catgrories {
   background-color: #f6f9fc;
   padding: 0px 30px;
