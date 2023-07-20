@@ -1,96 +1,57 @@
-//import React, { useState } from "react"
 
-//const ShopCart = ({ addToCart, shopItems }) => {
-//  const [count, setCount] = useState(0)
-//  const increment = () => {
-//    setCount(count + 1)
-//  }
-
-//  return (
-//    <>
-//      {shopItems.map((shopItems) => {
-//        return (
-//          <div className='product mtop'>
-//            <div className='img'>
-//              <span className='discount'>{shopItems.discount}% Off</span>
-//              <img src={shopItems.cover} alt='' />
-//              <div className='product-like'>
-//                <label>{count}</label> <br />
-//                <i className='fa-regular fa-heart' onClick={increment}></i>
-//              </div>
-//            </div>
-//            <div className='product-details'>
-//              <h3>{shopItems.name}</h3>
-//              <div className='rate'>
-//                <i className='fa fa-star'></i>
-//                <i className='fa fa-star'></i>
-//                <i className='fa fa-star'></i>
-//                <i className='fa fa-star'></i>
-//                <i className='fa fa-star'></i>
-//              </div>
-//              <div className='price'>
-//                <h4>${shopItems.price}.00 </h4>
-//                <button onClick={() => addToCart(shopItems)}>
-//                  <i className='fa fa-plus'></i>
-//                </button>
-//              </div>
-//            </div>
-//          </div>
-//        )
-//      })}
-//    </>
-//  )
-//}
-
-//export default ShopCart
-
-import React, { useState } from "react"
+// export default ShopCart
+import React, { useState } from "react";
 
 const ShopCart = ({ shopItems, addToCart }) => {
-  const [count, setCount] = useState(0)
-  const increment = () => {
-    setCount(count + 1)
-  }
+  // Creamos un estado que almacene el contador de cantidad para cada producto
+  const [counts, setCounts] = useState({});
+
+  const increment = (itemId) => {
+    setCounts((prevCounts) => ({
+      ...prevCounts,
+      [itemId]: (prevCounts[itemId] || 0) + 1, // Si el contador no existe, inicializarlo en 0 y luego incrementar en 1
+    }));
+  };
 
   return (
     <>
-      {shopItems.map((shopItems, index) => {
+      {shopItems.map((shopItem) => {
+        const { id, discount, cover, name, price } = shopItem;
+        const count = counts[id] || 0; // Obtenemos el contador de cantidad específico para este producto
+
         return (
-          <div className='box'>
-            <div className='product mtop'>
-              <div className='img'>
-                <span className='discount'>{shopItems.discount}% Off</span>
-                <img src={shopItems.cover} alt='' />
-                <div className='product-like'>
+          <div className="box" key={id}>
+            <div className="product mtop">
+              <div className="img">
+                <span className="discount">{discount}% Off</span>
+                <img src={cover} alt="" />
+                <div className="product-like">
                   <label>{count}</label> <br />
-                  <i className='fa-regular fa-heart' onClick={increment}></i>
+                  <i className="fa-regular fa-heart" onClick={() => increment(id)}></i>
                 </div>
               </div>
-              <div className='product-details'>
-                <h3>{shopItems.name}</h3>
-                <div className='rate'>
-                  <i className='fa fa-star'></i>
-                  <i className='fa fa-star'></i>
-                  <i className='fa fa-star'></i>
-                  <i className='fa fa-star'></i>
-                  <i className='fa fa-star'></i>
+              <div className="product-details">
+                <h3>{name}</h3>
+                <div className="rate">
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
                 </div>
-                <div className='price'>
-                  <h4>${shopItems.price}.00 </h4>
-                  {/* step : 3  
-                     if hami le button ma click garryo bahne 
-                    */}
-                  <button onClick={() => addToCart(shopItems)}>
-                    <i className='fa fa-plus'></i>
+                <div className="price">
+                  <h4>${price}.00 </h4>
+                  <button onClick={() => addToCart(shopItem)}>
+                    <i className="fa fa-plus"></i>
                   </button>
                 </div>
               </div>
             </div>
           </div>
-        )
+        );
       })}
     </>
-  )
-}
+  );
+};
 
-export default ShopCart
+export default ShopCart;
