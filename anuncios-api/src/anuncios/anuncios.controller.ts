@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Put, Delete, Patch, NotFoundException } from '@nestjs/common';
 import { AnunciosService } from './anuncios.service';
 import { CreateAnuncioDto } from './dto/create-anuncio.dto';
 import { UpdateAnuncioDto } from './dto/update-anuncio.dto';
@@ -7,9 +7,9 @@ import { UpdateAnuncioDto } from './dto/update-anuncio.dto';
 export class AnunciosController {
   constructor(private readonly anunciosService: AnunciosService) {}
 
-  @Post('/create')
+  @Post()
   create(@Body() createAnuncioDto: CreateAnuncioDto) {
-    return this.anunciosService.create(createAnuncioDto);
+    return this.anunciosService.createAnuncio(createAnuncioDto);
   }
 
   @Get()
@@ -21,14 +21,26 @@ export class AnunciosController {
   findOne(@Param('id') id: string) {
     return this.anunciosService.findOne(id);
   }
-
+  
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateAnuncioDto: UpdateAnuncioDto) {
-    return this.anunciosService.update(+id, updateAnuncioDto);
+  async update(@Param('id') id: string, @Body() updateAnuncioDto: UpdateAnuncioDto) {
+    try {
+      const updatedAnuncio = await this.anunciosService.updateAnuncio(id, updateAnuncioDto);
+      if (!updatedAnuncio) {
+        throw new NotFoundException(`Anuncio with ID ${id} not found`);
+      }
+      return updatedAnuncio;
+    } catch (error) {
+      // Aquí puedes manejar errores específicos y devolver respuestas con códigos de estado adecuados.
+      // Por ejemplo, si hay un error de validación en el DTO UpdateAnuncioDto, podrías devolver un BadRequestException.
+      throw error;
+    }
   }
+
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.anunciosService.remove(+id);
+    return this.anunciosService.removeAnuncio(id);
   }
+
 }

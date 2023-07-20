@@ -53,7 +53,7 @@ const Sdata = {
       "category": "Mantenimiento",
       "cover": "./images/wordhood/arreglo-pc.jpg",
       "name": "Reparación de computadoras",
-      "descripcion": "Resuelvo problemas de software y hardware en computadoras. ¡Tu PC volverá a funcionar como nueva!",
+      "descripcion": "Resuelvo problemas de software y hardware en computadoras.",
       "price": 30
     },
     {
@@ -61,7 +61,7 @@ const Sdata = {
       "category": "Ropa",
       "cover": "./images/wordhood/costura_hombre.jpg  ",
       "name": "Servicio de costura",
-      "descripcion": "Realizo arreglos de ropa y confección de prendas a medida. ¡Tus prendas lucirán perfectas!",
+      "descripcion": "Realizo arreglos de ropa y confección de prendas a medida, no dudes en contactarme. ¡Tus prendas lucirán perfectas!",
       "price": 22
     },
     {

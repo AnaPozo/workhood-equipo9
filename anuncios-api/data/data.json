@@ -1,66 +1,66 @@
 {"anuncios": [
   
-    {
-      "id": "1",
-      "titulo": "Paseo de perros",
-      "descripcion": "Ofrezco paseo de perros para aquellos que necesiten ayuda para mantener a sus mascotas activas y felices.",
-      "precio": "10"
-    },
-    {
-      "id": "2",
-      "titulo": "Ayuda a personas mayores",
-      "descripcion": "Estoy disponible para hacer la compra y ayudar a personas mayores con sus tareas diarias.",
-      "precio": "10"
-    },
-    {
-      "id": "3",
-      "titulo": "Clases de inglés",
-      "descripcion": "Imparto clases de inglés para principiantes y estudiantes intermedios. Clases personalizadas.",
-      "precio": "10"
-    },
-    {
-      "id": "4",
-      "titulo": "Servicio de jardinería",
-      "descripcion": "Ofrezco servicios de jardinería para mantener su jardín hermoso y bien cuidado.",
-      "precio": "10"
-    },
-    {
-      "id": "5",
-      "titulo": "Limpieza del hogar",
-      "descripcion": "Realizo limpieza del hogar con atención a los detalles para mantener su casa impecable.",
-      "precio": "10"
-    },
-    {
-      "id": "6",
-      "titulo": "Clases de yoga",
-      "descripcion": "Clases de yoga para todos los niveles, enfocadas en mejorar la flexibilidad y la relajación.",
-      "precio": "10"
-    },
-    {
-      "id": "7",
-      "titulo": "Reparación de computadoras",
-      "descripcion": "Resuelvo problemas de software y hardware en computadoras. ¡Tu PC volverá a funcionar como nueva!",
-      "precio": "10"
-    },
-    {
-      "id": "8",
-      "titulo": "Servicio de costura",
-      "descripcion": "Realizo arreglos de ropa y confección de prendas a medida. ¡Tus prendas lucirán perfectas!",
-      "precio": "10"
-    },
-    {
-      "id": "9",
-      "titulo": "Cuidado de niños",
-      "descripcion": "Cuido niños de todas las edades con experiencia y dedicación. ¡Los pequeños estarán en buenas manos!",
-      "precio": "10"
-    },
-    {
-      "id": "10",
-      "titulo": "Asesoría financiera",
-      "descripcion": "Ofrezco asesoría financiera personalizada para ayudarte a alcanzar tus metas económicas.",
-      "precio": "10"
-    }
-  ]
-   
+  {
+    "id": "1",
+    "titulo": "Paseo de perros",
+    "descripcion": "Ofrezco paseo de perros para aquellos que necesiten ayuda para mantener a sus mascotas activas y felices.",
+    "precio": "10"
+  },
+  {
+    "id": "2",
+    "titulo": "Ayuda a personas mayores",
+    "descripcion": "Estoy disponible para hacer la compra y ayudar a personas mayores con sus tareas diarias.",
+    "precio": "10"
+  },
+  {
+    "id": "3",
+    "titulo": "Clases de inglés",
+    "descripcion": "Imparto clases de inglés para principiantes y estudiantes intermedios. Clases personalizadas.",
+    "precio": "10"
+  },
+  {
+    "id": "4",
+    "titulo": "Servicio de jardinería",
+    "descripcion": "Ofrezco servicios de jardinería para mantener su jardín hermoso y bien cuidado.",
+    "precio": "10"
+  },
+  {
+    "id": "5",
+    "titulo": "Limpieza del hogar",
+    "descripcion": "Realizo limpieza del hogar con atención a los detalles para mantener su casa impecable.",
+    "precio": "10"
+  },
+  {
+    "id": "6",
+    "titulo": "Clases de yoga",
+    "descripcion": "Clases de yoga para todos los niveles, enfocadas en mejorar la flexibilidad y la relajación.",
+    "precio": "10"
+  },
+  {
+    "id": "7",
+    "titulo": "Reparación de computadoras",
+    "descripcion": "Resuelvo problemas de software y hardware en computadoras. ¡Tu PC volverá a funcionar como nueva!",
+    "precio": "10"
+  },
+  {
+    "id": "8",
+    "titulo": "Servicio de costura",
+    "descripcion": "Realizo arreglos de ropa y confección de prendas a medida. ¡Tus prendas lucirán perfectas!",
+    "precio": "10"
+  },
+  {
+    "id": "9",
+    "titulo": "Cuidado de niños",
+    "descripcion": "Cuido niños de todas las edades con experiencia y dedicación. ¡Los pequeños estarán en buenas manos!",
+    "precio": "10"
+  },
+  {
+    "id": "10",
+    "titulo": "Asesoría financiera",
+    "descripcion": "Ofrezco asesoría financiera personalizada para ayudarte a alcanzar tus metas económicas.",
+    "precio": "10"
+  }
+]
+ 
 
 }
