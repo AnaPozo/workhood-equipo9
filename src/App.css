@@ -17,7 +17,7 @@ body {
 }
 .container {
   max-width: 90%;
-  margin: auto;
+  margin: auto; 
 }
 .d_flex {
   display: flex;
