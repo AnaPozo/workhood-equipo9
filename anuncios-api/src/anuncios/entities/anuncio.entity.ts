@@ -1,8 +1,8 @@
 export class Anuncio {
-
         id: string
-        titulo: string
-        descripcion: string
-        precio: string
-    
-}
+        category: string
+        cover: string
+        name: string
+        descripcion:string
+        price: string
+      }
