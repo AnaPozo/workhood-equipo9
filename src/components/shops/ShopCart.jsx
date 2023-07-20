@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 // // export default ShopCart;
 // import React, { useState } from "react";
 
@@ -13,6 +14,8 @@
 //     }
 //   };
   
+=======
+>>>>>>> 67a528b0f1e3a674885536aca12db3b56332153e
 
 //   const addToFavorites = (itemId) => {
 //     if (!favorites.includes(itemId)) {
@@ -112,6 +115,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
         
 
         return (
+<<<<<<< HEAD
           <div className="box" key={id}>
             <div className="product mtop">
               <div className="img">
@@ -145,6 +149,33 @@ const ShopCart = ({ shopItems, addToCart }) => {
                   <h4>${price}.00 </h4>
                   <button onClick={() => addToCart(shopItem)}>
                     <i className="fa fa-plus"></i>
+=======
+          <div className='box'>
+            <div className='product mtop'>
+              <div className='img'>
+                <span className='discount'>{shopItems.category}</span>
+                <img src={shopItems.cover} alt='' />
+                <div className='product-like'>
+                  <label>{count}</label> <br />
+                  <i className='fa-regular fa-heart' onClick={increment}></i>
+                </div>
+              </div>
+              <div className='product-details'>
+                <h3>{shopItems.name}</h3>
+                <p>{shopItems.descripcion}</p>
+                <div className='rate'>
+                  <i className='fa fa-star'></i>
+                  <i className='fa fa-star'></i>
+                  <i className='fa fa-star'></i>
+                  <i className='fa fa-star'></i>
+                  <i className='fa fa-star'></i>
+                </div>
+                <div className='price'>
+                  <h4>${shopItems.price}.00 </h4>
+                
+                  <button onClick={() => addToCart(shopItems)}>
+                    <i className='fa fa-plus'></i>
+>>>>>>> 67a528b0f1e3a674885536aca12db3b56332153e
                   </button>
                 </div>
               </div>
