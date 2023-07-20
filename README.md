@@ -65,10 +65,15 @@ https://github.com/AnaPozo/workhood-equipo9.git
 <h2>Equipo</h2>
 
 <ul>
+<li>Ana Pozo -> https://github.com/AnaPozo </li>  
+<li>Brian Acosta -> https://github.com/DevBrianAcostaBenitez
 <li>Eva Bustamante -> https://github.com/EvaBustamante7 </li>
-
-
- 
+<li>Jesús Carbal -> https://github.com/JesCab29 </li>
+<li>Kevin Panjon -> https://github.com/KevinPanjon/KevinPanjon</li>
+<li>Maite Navas ->https://github.com/MaiteNavas</li>
+<li>Raül Radillo -> https://github.com/raul-ra</li>
+<li>Telma Calizaya -> https://github.com/jutelma</li>
+<li>Teresa Villa-> https://github.com/Teresa1965</li>
 </ul>
 
 
