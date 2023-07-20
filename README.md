@@ -52,7 +52,7 @@ https://github.com/AnaPozo/workhood-equipo9.git
 
 
 
-<h2>Maqueta</h2>
+<h2>4.-Maqueta</h2>
 <h3>Paleta de colores</h3>
 <img width="366" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/8bf25067-25bb-4719-bad2-4a757f98bb41">
 
