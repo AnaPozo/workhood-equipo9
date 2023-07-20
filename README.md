@@ -62,7 +62,14 @@ https://github.com/AnaPozo/workhood-equipo9.git
 <img width="207" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/b0115d98-0b44-4669-82f7-dd53c1193f35">
 
 
+<h2>Equipo</h2>
 
+<ul>
+<li>Eva Bustamante -> https://github.com/EvaBustamante7 </li>
+
+
+ 
+</ul>
 
 
 
