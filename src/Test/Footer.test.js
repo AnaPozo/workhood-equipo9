@@ -6,7 +6,7 @@ import Footer from '../common/footer/Footer';
 test('renders Footer component correctly', () => {
   const { getByText } = render(<Footer />);
   
-  const headingElement = getByText('WORK HOOD');
+  const headingElement = getByText('Cliente');
   expect(headingElement).toBeInTheDocument();
 
   const aboutUsElement = getByText('Sobre Nosotros');
@@ -15,3 +15,4 @@ test('renders Footer component correctly', () => {
   const contactUsElement = getByText('Contáctanos');
   expect(contactUsElement).toBeInTheDocument();
 });
+

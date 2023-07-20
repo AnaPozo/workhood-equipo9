@@ -1,6 +1,6 @@
 footer {
   background-color: #0f3460;
-  padding: 100px 0;
+  padding-bottom: 70px;
   color: #fff;
 }
 footer h1 {
@@ -32,5 +32,21 @@ footer h2 {
 }
 footer li {
   margin-bottom: 10px;
-  opacity: 0.5;
+  opacity: 1;
+}
+
+#textfooter {
+  color: white;
+  opacity: 200%;
+  width: 80%;
+  margin-left: 4%;
+}
+
+.boxtwo {
+  margin-top: 80px;
+}
+
+#logowhite {
+  margin-top: 15%;
+  width: 80%;
 }
