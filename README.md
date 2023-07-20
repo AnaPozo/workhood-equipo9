@@ -45,8 +45,8 @@ npm install
 npm install react-google-recaptcha
 
 <li>para ver cómo se ve y funciona en tu computadora ejecuta</li>
-npm start
-</p>
+<p>**npm start**</p>
+
 
 <h2>4.-Maqueta</h2>
 <h3>-Paleta de colores</h3>
