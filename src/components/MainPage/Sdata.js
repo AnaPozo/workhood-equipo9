@@ -8,7 +8,7 @@ const Sdata = [
   {
     id: 2,
     title: "Mantenimiento",
-    desc: "Jadíneria, carpintería, fontanería,pintura.",
+    desc: "Jadíneria, carpintería, fontanería, pintura.",
     cover: "./images/SlideCard/Mantenimiento.jpg",
   },
   {
