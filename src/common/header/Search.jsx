@@ -38,3 +38,4 @@ const Search = ({ CartItem }) => {
 }
 
 export default Search
+

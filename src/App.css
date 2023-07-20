@@ -187,6 +187,26 @@ button {
 .product:hover .product-like {
   opacity: 1;
 }
+
+.heart-red {
+  color: red;
+}
+/* Agregamos estilos CSS para el mensaje emergente */
+.message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/*---------product-----------*/
+/*----- control btn -------*/
 .control-btn .next,
 .control-btn .prev {
   position: absolute;
