@@ -1,23 +1,37 @@
 
-// export default ShopCart
+// // export default ShopCart;
 // import React, { useState } from "react";
 
 // const ShopCart = ({ shopItems, addToCart }) => {
-//   // Creamos un estado que almacene el contador de cantidad para cada producto
-//   const [counts, setCounts] = useState({});
+//   const [favorites, setFavorites] = useState([]);
 
-//   const increment = (itemId) => {
-//     setCounts((prevCounts) => ({
-//       ...prevCounts,
-//       [itemId]: (prevCounts[itemId] || 0) + 1, // Si el contador no existe, inicializarlo en 0 y luego incrementar en 1
-//     }));
+//   const showFavoriteMessage = (isFavorite) => {
+//     if (isFavorite) {
+//       alert("Añadido a favoritos");
+//     } else {
+//       alert("Removido de favoritos");
+//     }
+//   };
+  
+
+//   const addToFavorites = (itemId) => {
+//     if (!favorites.includes(itemId)) {
+//       setFavorites([...favorites, itemId]);
+//       showFavoriteMessage(true);
+//     }
+//   };
+
+//   const removeFromFavorites = (itemId) => {
+//     setFavorites(favorites.filter((id) => id !== itemId));
+//     showFavoriteMessage(false);
 //   };
 
 //   return (
 //     <>
 //       {shopItems.map((shopItem) => {
 //         const { id, discount, cover, name, price } = shopItem;
-//         const count = counts[id] || 0; // Obtenemos el contador de cantidad específico para este producto
+//         const isFavorite = favorites.includes(id);
+//         const count = isFavorite ? 1 : 0;
 
 //         return (
 //           <div className="box" key={id}>
@@ -27,7 +41,11 @@
 //                 <img src={cover} alt="" />
 //                 <div className="product-like">
 //                   <label>{count}</label> <br />
-//                   <i className="fa-regular fa-heart" onClick={() => increment(id)}></i>
+//                   {isFavorite ? (
+//                     <i className="fa-solid fa-heart heart-red" onClick={() => removeFromFavorites(id)}></i>
+//                   ) : (
+//                     <i className="fa-regular fa-heart" onClick={() => addToFavorites(id)}></i>
+//                   )}
 //                 </div>
 //               </div>
 //               <div className="product-details">
@@ -59,15 +77,31 @@ import React, { useState } from "react";
 
 const ShopCart = ({ shopItems, addToCart }) => {
   const [favorites, setFavorites] = useState([]);
+  const [showMessage, setShowMessage] = useState(false);
+  const [message, setMessage] = useState("");
+
+  const showFavoriteMessage = (isFavorite) => {
+    if (isFavorite) {
+      setMessage("Añadido a favoritos");
+    } else {
+      setMessage("Removido de favoritos");
+    }
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 2000); // Ocultar el mensaje después de 2 segundos (ajusta el tiempo según tus preferencias)
+  };
 
   const addToFavorites = (itemId) => {
     if (!favorites.includes(itemId)) {
       setFavorites([...favorites, itemId]);
+      showFavoriteMessage(true); // Mostrar el mensaje de "Añadido a favoritos"
     }
   };
 
   const removeFromFavorites = (itemId) => {
     setFavorites(favorites.filter((id) => id !== itemId));
+    showFavoriteMessage(false); // Mostrar el mensaje de "Removido de favoritos"
   };
 
   return (
@@ -75,7 +109,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
       {shopItems.map((shopItem) => {
         const { id, discount, cover, name, price } = shopItem;
         const isFavorite = favorites.includes(id);
-        const count = isFavorite ? 1 : 0;
+        
 
         return (
           <div className="box" key={id}>
@@ -84,11 +118,17 @@ const ShopCart = ({ shopItems, addToCart }) => {
                 <span className="discount">{discount}% Off</span>
                 <img src={cover} alt="" />
                 <div className="product-like">
-                  <label>{count}</label> <br />
+                  {/* Agregamos la clase "heart-red" cuando el producto está en la lista de favoritos */}
                   {isFavorite ? (
-                    <i className="fa-solid fa-heart heart-red" onClick={() => removeFromFavorites(id)}></i>
+                    <i
+                      className="fa-solid fa-heart heart-red"
+                      onClick={() => removeFromFavorites(id)}
+                    ></i>
                   ) : (
-                    <i className="fa-regular fa-heart" onClick={() => addToFavorites(id)}></i>
+                    <i
+                      className="fa-regular fa-heart"
+                      onClick={() => addToFavorites(id)}
+                    ></i>
                   )}
                 </div>
               </div>
@@ -112,6 +152,9 @@ const ShopCart = ({ shopItems, addToCart }) => {
           </div>
         );
       })}
+
+      {/* Mostrar el mensaje emergente */}
+      {showMessage && <div className="message">{message}</div>}
     </>
   );
 };

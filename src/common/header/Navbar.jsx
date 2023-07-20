@@ -25,7 +25,7 @@ const Navbar = () => {
                 <Link to='/pages'>páginas</Link>
               </li>
               <li>
-                <Link to='/user'>usuario</Link>
+                <Link to='/favoritos'>Favoritos</Link>
               </li>
               <li>
                 <Link to='/vendor'>vendedor</Link>
