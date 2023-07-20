@@ -13,18 +13,18 @@ import axios from "axios";
 
 
 function App() {
-<<<<<<< HEAD
+
  
   const { productItems } = Data
-=======
 
->>>>>>> f2e424b87db708d88053d44fa03a8b2eb844ed6e
+
+
   const { shopItems } = Sdata
 
   const [CartItem, setCartItem] = useState([])
 
   const addToCart = (product) => {
-<<<<<<< HEAD
+
     const productExit = CartItem.find((item) => item.id === product.id)
     if (productExit) {
       setCartItem(CartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty + 1 } : item)))
@@ -37,7 +37,6 @@ function App() {
     if (productExit.qty === 1) {
       setCartItem(CartItem.filter((item) => item.id !== product.id))
     } else {
-=======
    
     const productExit = CartItem.find((item) => item.id === product.id)
 
@@ -60,7 +59,7 @@ function App() {
       setCartItem(CartItem.filter((item) => item.id !== product.id))
     } else {
       
->>>>>>> f2e424b87db708d88053d44fa03a8b2eb844ed6e
+
       setCartItem(CartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty - 1 } : item)))
     }
   }
