@@ -20,7 +20,7 @@ Todos tenemos habilidades, capacidades y conocimientos que ofrecer y de los cual
 </p>
 
 
-<h2> 2.- ## 💻 Tecnologías y 🛠Herramientas </h2>
+<h2> 2.-💻 Tecnologías y 🛠Herramientas </h2>
 
 <img width="239" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/594fb9de-3b1c-4351-8354-916e23bb3066">
 
@@ -36,16 +36,18 @@ ________________________________________________________________________________
 https://github.com/AnaPozo/workhood-equipo9.git
 
 
-<p>
-<ul> 
+
 <li>Accede a una terminal y dirígete al directorio donde se encuentra tu proyecto y procede a instalar las dependencias del proyecto con el siguiente comando:</li>
-npm install
+
+**npm install**
 
 <li> instala el paquete react-google-recaptcha</li>
-npm install react-google-recaptcha
+
+**npm install react-google-recaptcha**
 
 <li>para ver cómo se ve y funciona en tu computadora ejecuta</li>
-<p>**npm start**</p>
+
+**npm start**
 
 
 <h2>4.-Maqueta</h2>
