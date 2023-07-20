@@ -38,7 +38,14 @@ npm install
 npm install react-google-recaptcha
 npm start
 
+<p>
+<ul>
+ 
+<li>Accede a una terminal y dirígete al directorio donde se encuentra tu proyecto </li>
+<img width="92" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/4a815d79-0e25-43b0-a2a6-13373143856b">
 
+ 
+</p>
 
 
 <h2>Maqueta</h2>
