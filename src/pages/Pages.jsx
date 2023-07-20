@@ -11,7 +11,6 @@ const Pages = ({ addToCart, CartItem, shopItems }) => {
       
       <TopCate />
       
-     
       <Shop shopItems={shopItems} addToCart={addToCart} />
       
       <Wrapper />
