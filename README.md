@@ -38,14 +38,14 @@ https://github.com/AnaPozo/workhood-equipo9.git
 
 <p>
 <ul> 
-<li>Accede a una terminal y dirígete al directorio donde se encuentra tu proyecto y procede a instalar las dependencias del proyecto con el siguiente comando</li>
-<li>npm install</li>
+<li>Accede a una terminal y dirígete al directorio donde se encuentra tu proyecto y procede a instalar las dependencias del proyecto con el siguiente comando:</li>
+npm install
 
 <li> instala el paquete react-google-recaptcha</li>
-<lul>npm install react-google-recaptcha</ul>
+npm install react-google-recaptcha
 
 <li>para ver cómo se ve y funciona en tu computadora ejecuta</li>
-<li>npm start</li>
+npm start
 </p>
 
 <h2>4.-Maqueta</h2>
