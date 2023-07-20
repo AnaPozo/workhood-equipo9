@@ -1,6 +1,6 @@
 
 .head {
-  background-color: #0f3460;
+  background-color: #163c4d;
   padding: 10px 0;
   color: #fff;
 }
@@ -12,16 +12,11 @@
   font-size: 13px;
   color: white;
 }
-/*------head-----------*/
-/*------search-----------*/
 
 #logoheader {
   width: 100%;
 }
 
-.search {
-  padding: 20px 0;
-}
 .search .logo img {
   width: auto;
   height: auto;
@@ -91,6 +86,12 @@
 }
 .catgrories h4 i {
   margin-left: 10px;
+}
+.navbar-container{
+  margin-right: 5%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 header {
   height: 8vh;
