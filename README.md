@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> # workhood-equipo9 - Proyecto Hackaton F5 Julio 2023 </h1>
+<h1 align="center"> Work Hood- Equipo9 - Proyecto Hackaton F5 Julio 2023 </h1>
 
 <h2>Tabla de contenidos</h2>
 
