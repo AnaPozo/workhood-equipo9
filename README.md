@@ -42,7 +42,7 @@ https://github.com/AnaPozo/workhood-equipo9.git
 <li>npm install</li>
 
 <li> instala el paquete react-google-recaptcha</li>
-<li>npm install react-google-recaptcha</li>
+<lul>npm install react-google-recaptcha</ul>
 
 <li>para ver cómo se ve y funciona en tu computadora ejecuta</li>
 <li>npm start</li>
