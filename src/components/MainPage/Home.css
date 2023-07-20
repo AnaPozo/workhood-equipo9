@@ -32,6 +32,11 @@
   flex-flow: column nowrap;
   justify-content: space-around;
 }
-.img-slider{
+#img-categories{
   height: 80%;
+  filter:brightness(0);
+}
+#img-slider{
+  height: 80%;
+
 }

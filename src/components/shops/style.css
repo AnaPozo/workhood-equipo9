@@ -66,11 +66,14 @@ p{
 #img-shop-card{
   margin-top: 30px;
   margin-bottom: 20px;
-  width: 30%;
+  width: 100%;
   align-self: center;
 }
 .img {
   display: flex;
   flex-direction: column;
+}
+#title-cart{
+  font-weight: 600;
 }
 

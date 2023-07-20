@@ -4,6 +4,11 @@ import { Link } from "react-router-dom"
 const Categories = () => {
   const data = [
     {
+      cateId: "all",
+      cateImg: "./images/category/globe-solid.svg",
+      cateName: "Todas las categorías",
+    },
+    {
       cateId: "health",
       cateImg: "./images/category/cat13.png",
       cateName: "Health & Care",
@@ -47,15 +52,11 @@ const Categories = () => {
       cateImg: "./images/category/cat3.png",
       cateName: "Viajes",
     },
-    {
-      cateImg: "./images/category/cat5.png",
+    {cateId: "clases",
+      cateImg: "./images/category/clases particulares 1.png",
       cateName: "Clases particulares",
     },
-    {
-      cateId: "otros",
-      cateImg: "./images/category/cat5.png",
-      cateName: "Otros",
-    },
+
 
 
   ]
@@ -66,7 +67,7 @@ const Categories = () => {
         {data.map((value, index) => {
           return (
           
-            <div className='box f_flex' key={index}>
+            <div id="img-categories"className='box f_flex' key={index}>
               <img src={value.cateImg} alt='' />
              <span>{value.cateName}</span>
             </div>

@@ -76,7 +76,7 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
   background-color: #fff;
   width: 23%;
-  height: 510px;
+  height: 100%;
   padding: 15px 0;
   border-radius: 5px;
   margin-top: 5px;
@@ -101,7 +101,7 @@ button {
 }
 
 .btn-primary {
-  background: #e94560;
+  background: #bd4257;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;
@@ -114,14 +114,14 @@ button {
   margin-top: 40px;
 }
 .heading i {
-  color: #e94560;
+  color: #bd4257;
   margin: 10px;
 }
 .discount {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: #163c4d;
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;

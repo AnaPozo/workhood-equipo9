@@ -8,11 +8,8 @@ const Pages = ({ addToCart, CartItem, shopItems }) => {
   return (
     <>
       <Home CartItem={CartItem} />
-      
-      <TopCate />
-      
       <Shop shopItems={shopItems} addToCart={addToCart} />
-      
+      <TopCate />
       <Wrapper />
     </>
   )

@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
+import Categories from "../../components/MainPage/Categories"
 
 const Navbar = () => {
   const [MobileMenu, setMobileMenu] = useState(false)
@@ -10,7 +11,9 @@ const Navbar = () => {
           <div className='catgrories d_flex'>
             <span className='fa-solid fa-border-all'></span>
             <h4>
-              Categorias <i className='fa fa-chevron-down'></i>
+              Categorias <i className='fa fa-chevron-down'>
+
+              </i>  
             </h4>
           </div>
 
@@ -21,7 +24,7 @@ const Navbar = () => {
                 <Link to='/'>home</Link>
               </li>
               <li>
-                <Link to='/alimentacion'>páginas</Link>
+                <Link to='/paginas'>páginas</Link>
               </li>
               <li>
                 <Link to='/favoritos'>Favoritos</Link>
