@@ -190,6 +190,11 @@ button {
 .product:hover .product-like {
   opacity: 1;
 }
+
+.heart-red {
+  color: red;
+}
+
 /*---------product-----------*/
 /*----- control btn -------*/
 .control-btn .next,
