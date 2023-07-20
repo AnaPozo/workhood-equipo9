@@ -1,22 +1,30 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "./App.css"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Header from "./common/header/Header"
 import Pages from "./pages/Pages"
-import Data from "./components/Data"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
+import axios from "axios"; 
+
+
+
 
 
 function App() {
+<<<<<<< HEAD
  
   const { productItems } = Data
+=======
+
+>>>>>>> f2e424b87db708d88053d44fa03a8b2eb844ed6e
   const { shopItems } = Sdata
 
   const [CartItem, setCartItem] = useState([])
 
   const addToCart = (product) => {
+<<<<<<< HEAD
     const productExit = CartItem.find((item) => item.id === product.id)
     if (productExit) {
       setCartItem(CartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty + 1 } : item)))
@@ -29,9 +37,63 @@ function App() {
     if (productExit.qty === 1) {
       setCartItem(CartItem.filter((item) => item.id !== product.id))
     } else {
+=======
+   
+    const productExit = CartItem.find((item) => item.id === product.id)
+
+    if (productExit) {
+      setCartItem(CartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty + 1 } : item)))
+    } else {
+    
+      setCartItem([...CartItem, { ...product, qty: 1 }])
+    }
+  }
+  
+  
+ 
+  const decreaseQty = (product) => {
+ 
+    const productExit = CartItem.find((item) => item.id === product.id)
+
+   
+    if (productExit.qty === 1) {
+      setCartItem(CartItem.filter((item) => item.id !== product.id))
+    } else {
+      
+>>>>>>> f2e424b87db708d88053d44fa03a8b2eb844ed6e
       setCartItem(CartItem.map((item) => (item.id === product.id ? { ...productExit, qty: productExit.qty - 1 } : item)))
     }
   }
+
+  const [productItems, setProductItems] = useState([]);
+  const [anuncios, setAnuncios] = useState([]);
+
+
+useEffect(() => {
+  axios
+    .get("http://localhost:3000/anuncios")
+    .then((response) => {
+      setProductItems(response.data);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}, []); 
+
+// Step 6: Método POST para crear un nuevo anuncio
+const createAnuncio = (newAnuncio) => {
+  // Método POST para crear un nuevo anuncio
+  axios
+    .post("http://localhost:3000/anuncios", newAnuncio) 
+    .then((response) => {
+      // Actualiza la lista de anuncios con el nuevo anuncio creado
+      setAnuncios([...anuncios, response.data]); 
+    })
+    .catch((error) => {
+      console.error("Error al crear el anuncio:", error);
+    });
+};
+
 
   return (
     <>
