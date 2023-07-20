@@ -1,3 +1,5 @@
+
+
 <h1 align="center"> # workhood-equipo9 - Proyecto Hackaton F5 Julio 2023 </h1>
 
 <h2>Tabla de contenidos</h2>
@@ -18,10 +20,10 @@ Todos tenemos habilidades, capacidades y conocimientos que ofrecer y de los cual
 
 <img width="239" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/594fb9de-3b1c-4351-8354-916e23bb3066">
 
-<ol>
+<ul>
  <li>Trello: https://trello.com/b/cNJxWNX1/hackaton-grupo9</li>
 <li>Figma: https://www.figma.com/file/7DFruWdfqtWbjm7CiL7JlG/Work-hood?type=design&node-id=0-1&mode=design&t=uC5B0UtoaZjVrB7M-0
-</li> </ol>
+</li> </ul>
 _______________________________________________________________________________________________________________________________
 
 <h2>Instalación </h2>
@@ -33,8 +35,9 @@ https://github.com/AnaPozo/workhood-equipo9.git
 
 
 
-
-
+<h2>Maqueta</h2>
+<h3>Paleta de colores</h3>
+<img width="366" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/8bf25067-25bb-4719-bad2-4a757f98bb41">
 
 
 
