@@ -21,6 +21,8 @@
 .shop .category img {
   width: auto;
   height: auto;
+
+
 }
 .shop .category .box:hover {
   background-color: #fff;
@@ -60,5 +62,15 @@
 p{
   font-weight: light;
   color: grey
+}
+#img-shop-card{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 30%;
+  align-self: center;
+}
+.img {
+  display: flex;
+  flex-direction: column;
 }
 
