@@ -7,6 +7,7 @@ import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import axios from "axios"; 
+import AnunciosView from './components/anunciosView';
 
 function App() {
 
@@ -42,35 +43,9 @@ function App() {
   }
 
   const [productItems, setProductItems] = useState([]);
-  const [anuncios, setAnuncios] = useState([]);
+ 
 
-
-useEffect(() => {
-  axios
-    .get("http://localhost:3000/anuncios")
-    .then((response) => {
-      setProductItems(response.data);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
-}, []); 
-
-// Step 6: Método POST para crear un nuevo anuncio
-const createAnuncio = (newAnuncio) => {
-  // Método POST para crear un nuevo anuncio
-  axios
-    .post("http://localhost:3000/anuncios", newAnuncio) 
-    .then((response) => {
-      // Actualiza la lista de anuncios con el nuevo anuncio creado
-      setAnuncios([...anuncios, response.data]); 
-    })
-    .catch((error) => {
-      console.error("Error al crear el anuncio:", error);
-    });
-};
-
-
+  
   return (
     <>
       <Router>
@@ -82,11 +57,14 @@ const createAnuncio = (newAnuncio) => {
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route>
+          <Route path='/anuncios' exact> {/* Ruta para mostrar los anuncios */}
+            <AnunciosView /> {/* Renderiza el componente AnunciosView */}
+          </Route>
         </Switch>
         <Footer />
       </Router>
     </>
-  )
-}
+  );
+};
 
 export default App

@@ -1,8 +1,8 @@
-export class Anuncio {
-        id: string
-        category: string
-        cover: string
-        name: string
-        descripcion:string
-        price: string
-      }
+
+export interface Anuncio {
+  id: string;
+  titulo: string;
+  descripcion: string;
+  precio: string;
+  categoria?: string; 
+}
