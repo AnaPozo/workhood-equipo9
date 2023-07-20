@@ -6,22 +6,22 @@ const Wrapper = () => {
     {
       cover: <i class="fa-solid fa-city"></i>,
       title: "En tu zona",
-      decs: "Alguien en tu zona ofrece el servicio que necesitas, sin necesidad de desplazarse muy lejos, ni para ti ni para quien lo ofrece.",
+      decs: "En tu zona, alguien ofrece el servicio que necesitas, sin necesidad de desplazarte largas distancias, ni tu ni quien le ofrece el servicio.",
     },
     {
       cover: <i class="fa-solid fa-credit-card"></i>,
-      title: "Variedad de precios",
-      decs: "Cada trabajador publica sus propios precios, segun las necesidades cubiertas.",
+      title: "Variedad de métodos de pago",
+      decs: "Cada persona publica sus propios precios o acuerda intercambiar algún servicio contigo. Dependerá del acuerdo al que lleguéis ambas partes.",
     },
     {
       cover: <i class="fa-solid fa-handshake"></i>,
-      title: "De confianza",
-      decs: "Los propios usuarios pueden corroborar que los servicios son de fiar y de calidad.",
+      title: "De proximidad y confianza",
+      decs: "Los propios usuarios pueden corroborar que los servicios son de confianza gracias a sus opiniones y feedbacks.",
     },
     {
       cover:<i class="fa-solid fa-clock"></i>,
-      title: "posibilidad de servicio a cualquier hora del dia",
-      decs: "Un trabajador podria estar disponible a la hora que te haga falta.",
+      title: "Servicios que se ajustan a tu tiempo y disponibilidad",
+      decs: "Los servicios podrán estar disponibles a la hora que acuerdes con la persona lo oferte según la disponibiliad de ambos.",
     },
   ]
   return (

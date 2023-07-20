@@ -12,10 +12,7 @@ const TopCate = () => {
               <i className='fa-solid fa-border-all'></i>
               <h2>Categorias populares</h2>
             </div>
-            <div className='heading-right row '>
-              <span>Ver todas</span>
-              <i className='fa-solid fa-caret-right'></i>
-            </div>
+
           </div>
           <TopCart />
         </div>

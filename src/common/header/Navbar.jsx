@@ -20,13 +20,13 @@ const Navbar = () => {
                 <Link to='/favoritos'>Favoritos</Link>
               </li>
               <li>
-                <Link to='/vendor'>vendedor</Link>
+                <Link to='/vendedor'>Vendedor</Link>
               </li>
               <li>
-                <Link to='/track'>orden</Link>
+                <Link to='/cart'>Orden</Link>
               </li>
               <li>
-                <Link to='/contact'>contacto</Link>
+                <Link to='/contact'>Contacto</Link>
               </li>
             </ul>
 
