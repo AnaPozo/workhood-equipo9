@@ -33,7 +33,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
   return (
     <>
       {shopItems.map((shopItem) => {
-        const { id, discount, cover, name, price } = shopItem;
+        const { id, category, cover, name, descripcion, price } = shopItem;
         const isFavorite = favorites.includes(id);
         
 
@@ -41,7 +41,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
           <div className="box" key={id}>
             <div className="product mtop">
               <div className="img">
-                <span className="discount">{discount}% Off</span>
+                <span className="discount">{category}</span>
                 <img src={cover} alt="" id="img-shop-card"/>
                 <div className="product-like">
                   {/* Agregamos la clase "heart-red" cuando el producto está en la lista de favoritos */}
@@ -60,6 +60,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
               </div>
               <div className="product-details">
                 <h3>{name}</h3>
+                <p>{descripcion}</p>
                 <div className="rate">
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
