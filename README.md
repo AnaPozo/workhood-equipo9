@@ -14,17 +14,22 @@ Se trata de un sistema de ayuda mutua entre personas que viven en la misma comun
 Todos tenemos habilidades, capacidades y conocimientos que ofrecer y de los cuales se pueden beneficiar otras personas
 </p>
 
-<h2>Para realizar el proyecto hemos utilizado las siguientes ## 💻 Tecnologías y 🛠Herramientas </h2>
+<h2> ## 💻 Tecnologías y 🛠Herramientas </h2>
 
 <img width="239" alt="image" src="https://github.com/AnaPozo/workhood-equipo9/assets/132339878/594fb9de-3b1c-4351-8354-916e23bb3066">
 
+Enlace Figma: https://trello.com/b/cNJxWNX1/hackaton-grupo9
 
+Enlace trello
+
+_______________________________________________________________________________________________________________________________
 
 <h2>Instalación </h2>
 
-Clona el repositorio:
-
+**Clona el repositorio:**
 https://github.com/AnaPozo/workhood-equipo9.git
+
+
 
 
 
