@@ -5,14 +5,14 @@ const Sdata = {
       "category": "Animales",
       "cover": "./images/wordhood/pasear_perros.jpg",
       "name": "Paseo de perros",
-      "descripcion": "Ofrezco paseo de perros para aquellos que necesiten ayuda para mantener a sus mascotas activas y felices.",
+      "descripcion": "Ofrezco paseo de perros para aquellos que necesiten ayuda para mantener a sus mascotas.",
       "price": 10
     },
     {
       "id": "2",
       "category": "Health & Care",
       "cover": "./images/wordhood/ayuda_mayores2.jpg",
-      "name": "Ayuda a personas mayores",
+      "name": "Ayuda a mayores",
       "descripcion": "Estoy disponible para hacer la compra y ayudar a personas mayores con sus tareas diarias.",
       "price": 15
     },
@@ -21,7 +21,7 @@ const Sdata = {
       "category": "Clases particulares",
       "cover": "./images/wordhood/clases_informatica.jpg",
       "name": "Clases de inglés",
-      "descripcion": "Imparto clases de inglés para principiantes y estudiantes intermedios. Clases personalizadas.",
+      "descripcion": "Imparto clases de inglés para principiantes y estudiantes intermedios.",
       "price": 20
     },
     {
@@ -29,13 +29,13 @@ const Sdata = {
       "category": "Mantenimiento",
       "cover": "./images/top/category-1.png",
       "name": "Servicio de jardinería",
-      "descripcion": "Ofrezco servicios de jardinería para mantener su jardín hermoso y bien cuidado.",
+      "descripcion": "Ofrezco servicios de jardinería para mantener su jardín hermoso .",
       "price": 25
     },
     {
       "id": "5",
       "category": "Mantenimiento",
-      "cover": "./images//top/category-2.png",
+      "cover": "./images/top/productos-limpieza.jpg",
       "name": "Limpieza del hogar",
       "descripcion": "Realizo limpieza del hogar con atención a los detalles para mantener su casa impecable.",
       "price": 18
@@ -45,7 +45,7 @@ const Sdata = {
       "category": "Clases particulares",
       "cover": "./images/wordhood/clase-yoga.jpg",
       "name": "Clases de yoga",
-      "descripcion": "Clases de yoga para todos los niveles, enfocadas en mejorar la flexibilidad y la relajación.",
+      "descripcion": "Clases de yoga para todos los niveles, mejora la flexibilidad y la relajación.",
       "price": 12
     },
     {
